@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         contactusIntent.putExtra("Field2", "Mail ID");
         contactusIntent.putExtra("Field3", "Phone");
         startActivity(contactusIntent);
+        System.out.println("TestLine");
 
     }
 }
